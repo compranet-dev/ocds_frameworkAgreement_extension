@@ -1,0 +1,20 @@
+{
+  "name": {
+    "es" : "Contrato Marco",
+    "en" : "framework Agreement" 
+  },
+  "description": {
+    "es" : "Extensión al OCDS para incluir la información del Tender referente a los contratos marco del gobierno federal mexicano",
+    "en" : "OCDS extension to include the tender information regarding the framework contracts of the Mexican federal government"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "documentationUrl": {
+    "en" : "https://github.com/GobiernoFacil/ocds_frameworkAgreement_extension",
+    "es" : "https://github.com/GobiernoFacil/ocds_frameworkAgreement_extension"
+  },
+  "schemas": [
+    "release-schema.json"
+  ]
+}

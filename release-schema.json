@@ -1,0 +1,42 @@
+{
+  "definitions" : {
+    "Contract" : {
+      "properties" : {
+        "frameworkAgreementRequisitionNumber" : {
+          "title" : "the requisition identifier of the contracting process",
+          "description" : "the requisition identifier of the contracting process",
+          "type" : ["string", "null"]
+        }
+      },
+      "ocid": {
+          "properties": {
+              "ocid": {
+                "title": "Unique Identifier",
+                "description": "For TDGF contracts the identifier consists of the requisition number.",
+                "type": ["string"]
+          }
+      }
+    },
+    "Tender" : {
+      "properties" : {
+        "frameworkAgreement" : {
+          "title" : "framework Agreement",
+          "description" : "flag announcing that the contracting process is based on a framework agreement",
+          "type" : "boolean"
+        },
+
+        "frameworkAgreementPlatform" : {
+          "title" : "framework Agreement Platform",
+          "description" : "the computer system in which the contracting process is generated",
+          "type" : ["string", "null"]
+        },
+        
+        "frameworkAgreementTitle" : {
+          "title" : "Framework Agreement Title",
+          "description" : "the name of the Framework Agreement",
+          "type" : ["string", "null"]
+        },
+      }
+    }    
+  }
+}

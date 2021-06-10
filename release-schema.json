@@ -1,42 +1,131 @@
 {
-  "definitions" : {
-    "Contract" : {
-      "properties" : {
-        "frameworkAgreementRequisitionNumber" : {
-          "title" : "the requisition identifier of the contracting process",
-          "description" : "the requisition identifier of the contracting process",
-          "type" : ["string", "null"]
+  "id": null,
+  "$schema": null,
+  "title": null,
+  "description": null,
+  "type": null,
+  "properties": null,
+  "required": null,
+  "definitions": {
+    "ocid": {
+      "properties": {
+        "ocid": {
+          "title": "Unique Identifier",
+          "description": "For TDGF contracts the identifier consists of the requisition number.",
+          "type": [
+            "string"
+          ]
         }
-      },
-      "ocid": {
-          "properties": {
-              "ocid": {
-                "title": "Unique Identifier",
-                "description": "For TDGF contracts the identifier consists of the requisition number.",
-                "type": ["string"]
-          }
       }
     },
-    "Tender" : {
-      "properties" : {
-        "frameworkAgreement" : {
-          "title" : "framework Agreement",
-          "description" : "flag announcing that the contracting process is based on a framework agreement",
-          "type" : "boolean"
+    "Planning": null,
+    "Tender": {
+      "title": null,
+      "description": null,
+      "type": null,
+      "required": null,
+      "properties": {
+        "frameworkAgreement": {
+          "title": "framework Agreement",
+          "description": "flag announcing that the contracting process is based on a framework agreement",
+          "type": "boolean"
         },
-
-        "frameworkAgreementPlatform" : {
-          "title" : "framework Agreement Platform",
-          "description" : "the computer system in which the contracting process is generated",
-          "type" : ["string", "null"]
+        "frameworkAgreementPlatform": {
+          "title": "framework Agreement Platform",
+          "description": "the computer system in which the contracting process is generated",
+          "type": [
+            "string",
+            "null"
+          ]
         },
-        
-        "frameworkAgreementTitle" : {
-          "title" : "Framework Agreement Title",
-          "description" : "the name of the Framework Agreement",
-          "type" : ["string", "null"]
+        "frameworkAgreementTitle": {
+          "title": "Framework Agreement Title",
+          "description": "the name of the Framework Agreement",
+          "type": [
+            "string",
+            "null"
+          ]
         },
-      }
-    }    
+        "id": null,
+        "title": null,
+        "description": null,
+        "status": null,
+        "procuringEntity": null,
+        "items": null,
+        "value": null,
+        "minValue": null,
+        "procurementMethod": null,
+        "procurementMethodDetails": null,
+        "procurementMethodRationale": null,
+        "mainProcurementCategory": null,
+        "additionalProcurementCategories": null,
+        "awardCriteria": null,
+        "awardCriteriaDetails": null,
+        "submissionMethod": null,
+        "submissionMethodDetails": null,
+        "tenderPeriod": null,
+        "enquiryPeriod": null,
+        "hasEnquiries": null,
+        "eligibilityCriteria": null,
+        "awardPeriod": null,
+        "contractPeriod": null,
+        "numberOfTenderers": null,
+        "tenderers": null,
+        "documents": null,
+        "milestones": null,
+        "amendments": null,
+        "amendment": null
+      },
+      "patternProperties": null
+    },
+    "Award": null,
+    "Contract": {
+      "type": null,
+      "title": null,
+      "description": null,
+      "required": null,
+      "properties": {
+        "frameworkAgreementRequisitionNumber": {
+          "title": "the requisition identifier of the contracting process",
+          "description": "the requisition identifier of the contracting process",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": null,
+        "awardID": null,
+        "title": null,
+        "description": null,
+        "status": null,
+        "period": null,
+        "value": null,
+        "items": null,
+        "dateSigned": null,
+        "documents": null,
+        "implementation": null,
+        "relatedProcesses": null,
+        "milestones": null,
+        "amendments": null,
+        "amendment": null
+      },
+      "patternProperties": null
+    },
+    "Implementation": null,
+    "Milestone": null,
+    "Document": null,
+    "Budget": null,
+    "Transaction": null,
+    "OrganizationReference": null,
+    "Organization": null,
+    "Item": null,
+    "Amendment": null,
+    "Classification": null,
+    "Identifier": null,
+    "Address": null,
+    "ContactPoint": null,
+    "Value": null,
+    "Period": null,
+    "RelatedProcess": null
   }
 }
